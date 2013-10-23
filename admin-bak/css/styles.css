@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background:url(../images/bg.jpg) no-repeat center top #310b28;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0;
+    font-size:12px;
+    margin:0 auto;
+    color: #0e4354;
+    background: #CEEDFF;
+    background-image: linear-gradient(to bottom,#CEEDFF,#fff);  
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:#006;
+}
+
+fieldset {
+}
+fieldset legend {
+}
+.clear { clear:both; }
+.cach{height:10px;}
+
+a:link, a:visited {
+    color:#06F;
+    text-decoration:none;
+}
+a:hover{
+    color:#FF9900;
+    cursor: pointer;
+}
+
+#wrapper {
+    width:1200px;
+    /*vien tron va lam mo*/
+    border-radius:15px;
+    -moz-border-radius:15px;
+    padding:10px;
+
+    box-shadow: 0px 0px 14px #036803;
+    -moz-box-shadow: 0px 0px 14px #036803;
+    margin:0 auto;
+    height: auto;
+}
+#header {
+
+    border:none;
+    background:url(../images/Logo.pgn); 
+    height: 100px;
+
+}
+
+#header .today { position:absolute; margin:0 0 0 770px;color: #999999;}
+#header .site-name {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:24px;
+    font-weight:bold;
+    color:#000;
+    margin-top:10px;
+
+}
+#header .slogan {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+
+}
+#menu-nav
+{
+    padding-bottom: 20px;
+    /*    background-color:#0066CC;*/
+    background-image:url(../image/menu_center.png);
+    width:1200px;
+    height:15px;
+    border: 1px solid rgb(176, 196, 222);
+    margin: 0 auto;
+    margin-bottom:15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;   
+}
+
+#menu-nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-weight:bold;
+    color:#FFF;
+}
+#menu-nav ul.nav li a:hover {
+    color:#FF9966;
+    border: 2px solid rgb(176, 196, 222);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background-color:#CCFFFF;
+    opacity:0.9;
+    cursor: pointer;
+}
+#menu-nav ul.nav {
+    list-style: none;	
+    position: absolute;
+    z-index: 6000;
+    margin:auto 0;     
+}
+#menu-nav ul.nav li {
+    list-style: none;
+    display:inline;
+    float: left;
+    margin:auto 0;
+
+}
+#menu-nav ul.nav a, ul.nav a:visited {
+    padding: 10px 5px 10px 5px;
+    display: block;
+    text-decoration: none;
+    font-weight:bold;
+}
+/*menusub2*/
+
+#menu-nav ul.nav li ul{ 
+    display:none;
+    margin-top: 5px;
+    width:210px;
+    float:left;
+    background-color: #0066CC;
+}
+#menu-nav ul.nav li li
+{
+    float:none;
+}
+#menu-nav ul.nav li:hover > ul 
+{
+    display:block;
+    cursor: pointer;
+}
+
+#menu-nav ul.nav li ul a, ul.nav ul.nav li ul a:visited {  
+    padding: 5px 0 5px 5px;
+    display: block;
+    text-decoration: none;
+    /*    background-color: #0066CC;*/
+    text-decoration:none;
+    border-bottom: 1px solid red;
+    box-shadow: 0px 0px 10px #036803;
+    -moz-box-shadow: 0px 0px 10px #036803;
+    font-weight:bold;
+
+}
+#menu-nav ul.nav li a:active{
+    color:#F30;  
+}
+#menu-nav ul.nav li.trangchu {
+    width:100px;
+    padding:0 0 0 5px;
+}	
+#menu-nav ul.nav  li.gioithieu {
+    width:100px;
+}
+#menu-nav ul.nav li.bomon, li.tailieu{
+    width:90px;
+}	
+#menu-nav ul.nav li.bantinkhoa{
+    width:125px;
+}
+#menu-nav ul.nav li.daotao{
+    width:200px;
+}
+#menu-nav ul.nav li.hdsvien
+{
+    width:180px;
+}
+
+ul, ol, dl {
+    padding:0;
+    margin-top: 10px;
+}
+
+.sidebar1 {
+    float: right;
+    width: 180px;
+
+}
+.float{
+    float:left;
+}
+
+.bang{
+    font-size:12px;
+    width:1200px;
+     border: 1px solid #6699CC;
+      box-shadow: 0px 0px 5px #999999;
+}
+.bang .head{
+    font-size:14px;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#0066CC;
+
+}
+.bang .content{
+    background-color:#FFFFCC ;
+}
+
+.item-link{
+    color: #000000;
+    background: url(../images/bullet.gif)  no-repeat;
+    padding-left: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 0;
+    text-align: justify;
+    cursor: pointer;
+} 
+
+.thongbao{
+    color:#FF0000;
+    padding:5px;
+    font-size:18px;
+}
+.tinmoinhat{
+    font-size:22px;
+    font-weight:bold;
+    color:#FF9900 ;
+    padding:10px;
+}
+/*---*/
+.fupload{
+    margin: 20px 0 10px 20px;
+
+}
+.upload{
+    font-size:20px;
+    font-weight:bold;
+    color:#FF3300;
+    padding:20px 5px 10px 30px;
+}
+.loaitin{
+    padding:10px;
+}
+.contain_total{
+    border-bottom: 2px solid rgb(176, 196, 222);
+    margin: 0 20px 0 20px;
+}
+.contain_title{	
+    font-size:18px;
+    font-weight:bold;
+    margin-top:5px;
+}
+
+.contain_content{
+    padding-top:5px;
+
+}
+.hinh{
+    margin: 0 20px 5px 0;
+    box-shadow: 0px 0px 5px #999999;
+
+}
+#footer {
+    border:none;
+    text-align:left;
+    padding:10px 0px 20px 10px;
+    border: 1px solid rgb(176, 196, 222);
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #8AB1FE;
+    opacity:0.7;
+    box-shadow: 0px 0px 10px #036803;
+    -moz-box-shadow: 0px 0px 10px #036803;
+}
+.footer span {
+    font-size: 12px;
+    font-weight: normal;
+    color: #636363;
+}
+.link{
+    font-size:16px;
+    font-weight:bold;
+    color: #07C;
+    padding:20px 5px 10px 30px;
+}
+.danhsach{
+    font-size:20px;
+    text-align:center;
+    margin:0 0 10px 0;
+    color: #FF3300;
+    font-weight: bold;
+    float: left;
+}
+.chao{
+    font-size: 11px;
+    color: #3366FF;
+    font-weight: bold;
+    float: right;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.capnhat{
+    width: 30px;
+    font-weight: bold;
+   
+}
+/*form*/
+.form-regit{float:left;width:600px; margin:10px 0 5px 300px;}
+.label{float:left;width:150px; padding-top:4px;text-align:left;font-weight: bold; font-size: 13px;}
+.value{float:right;width:400px;}
+.value input{width:350px;}
+.inc{float:left;padding-left: 50px;}
+.form-but{float:left;width:600px; margin:30px 0 10px 500px;}
+.tt{text-align:center;color:#069; font-size:20px; font-weight:bold; padding:50px 0 20px 0;}
+
